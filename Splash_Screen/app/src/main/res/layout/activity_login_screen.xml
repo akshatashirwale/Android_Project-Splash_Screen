@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/img_6"
+    tools:context=".LoginScreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jeevansathi.Com!"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center_horizontal"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="45dp"
+        android:background="#112cc1"
+        android:backgroundTint="#3C0101"
+        android:elegantTextHeight="true"
+        android:gravity="center"
+        android:text="Login_Page"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:visibility="visible"/>
+
+    <EditText
+        android:id="@+id/edtTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="#50ffffff"
+        android:drawableLeft="@drawable/person"
+        android:drawablePadding="10dp"
+        android:hint="Enter Your Name "
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:textColorHint="@color/white" />
+
+
+    <EditText
+        android:id="@+id/edttxtpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="#50ffffff"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="10dp"
+        android:hint="Password "
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:textColorHint="@color/white" />
+
+
+
+    <Button
+        android:layout_width="162dp"
+        android:id="@+id/btlogin"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#26C32D"
+        android:background="#32D538"
+        android:textStyle="bold"
+        android:text="login"/>
+
+    <Button
+        android:id="@+id/signuplogin"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:backgroundTint="#26C32D"
+        android:background="#32D538"
+        android:text="sign_up"/>
+
+</LinearLayout>
